@@ -55,6 +55,7 @@ const login = async (req, res) => {
 			res.json({ ok: true, message: 'welcome back', token, email });
 		} else return res.json({ ok: false, message: 'invalid data provided' });
 	} catch (error) {
+		console.log(error)
 		res.json({ ok: false, error });
 	}
 };
