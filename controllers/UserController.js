@@ -69,4 +69,4 @@ const verify_token = (req, res) => {
 	});
 };
 
-module.exports = { register, login, verify_token };
+module.exports = { admin, register, login, verify_token };
