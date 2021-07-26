@@ -39,7 +39,7 @@ This project is on its beta version.
 2. Registration
 3. Admin Access
 
-## Techonologies
+## Technologies
 
 React 
 Node.js
